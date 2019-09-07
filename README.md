@@ -10,7 +10,7 @@ schedule as per geography.
 
 This app used sms-magic api for sending sms.
 
-###Required Environment variables:
+### Required Environment variables:
 
 apiKey is required env variable
 
