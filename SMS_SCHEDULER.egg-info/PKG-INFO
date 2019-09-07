@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: SMS-SCHEDULER
+Version: 0.0.1
+Summary: Schedule the sms according to Date & time of schedule as per geography
+Home-page: https://github.com/pypa/sampleproject
+Author: Amandeep Singh
+Author-email: amandeepsingh2606@gmail.com
+License: UNKNOWN
+Description: # SmsScheduler
+        
+        This app takes the following arguments, and schedules the sms
+        according to Date &amp; time of
+        schedule as per geography.
+        
+        1. Csv file (mobile number, country)
+        2. Schedule time.
+        3. Message text body.
+        
+        This app used sms-magic api for sending sms.
+        
+        ### Required Environment variables:
+        
+        apiKey is required env variable
+        
+        export apiKey=<sms-magic api key>
+        
+        For apiKey you have to create an account with smsmagic and verify your email.
+        
+        
+        ### Run application
+        
+        1. git clone https://github.com/amandeep2606/SmsScheduler.git
+        2. pip install -r requirements.txt
+        3. python service.py
+        
+        
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,6 @@
+README.md
+setup.py
+SMS_SCHEDULER.egg-info/PKG-INFO
+SMS_SCHEDULER.egg-info/SOURCES.txt
+SMS_SCHEDULER.egg-info/dependency_links.txt
+SMS_SCHEDULER.egg-info/top_level.txt
