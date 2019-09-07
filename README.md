@@ -14,7 +14,7 @@ This app used sms-magic api for sending sms.
 
 apiKey is required env variable
 
-export apiKey=<sms-magic api key>
+export apiKey=sms-magic api key
 
 For apiKey you have to create an account with smsmagic and verify your email.
 
