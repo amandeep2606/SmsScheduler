@@ -49,7 +49,7 @@ class MessageScheduler(Message):
         :return: None
         """
 
-        url = os.getenv('url')
+        url = 'https://api.sms-magic.com/v1/sms/send'
         headers = {
             'apiKey': os.getenv('apiKey')
         }
