@@ -2,7 +2,7 @@ from datetime import datetime
 from pytz import country_timezones, timezone
 from pytz.exceptions import UnknownTimeZoneError
 import pycountry
-from Assignment_2.logger import logger, log_exception
+from SmsScheduler.logger import logger, log_exception
 
 
 class Country(object):

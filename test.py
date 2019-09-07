@@ -2,9 +2,10 @@ from datetime import datetime, timedelta
 from pytz import timezone
 import unittest
 
-from Assignment_2.country import Country, CountryDelay
-from Assignment_2.message import MessageScheduler
-from Assignment_2.service import run_message_scheduler
+from SmsScheduler.country import Country, CountryDelay
+from SmsScheduler.message import MessageScheduler
+from SmsScheduler.service import run_message_scheduler
+
 
 class TestCountry(unittest.TestCase):
     def setUp(self):

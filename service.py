@@ -1,8 +1,8 @@
 import csv
 import traceback
 
-from Assignment_2.message import MessageScheduler, s
-from Assignment_2.logger import logger, log_exception
+from SmsScheduler.message import MessageScheduler, s
+from SmsScheduler.logger import logger, log_exception
 
 
 def run_message_scheduler(file_name, schedule_time, body):

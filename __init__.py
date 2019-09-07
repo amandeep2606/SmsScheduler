@@ -1,2 +1,2 @@
-name = "Assignment_2"
+name = "SmsScheduler"
 

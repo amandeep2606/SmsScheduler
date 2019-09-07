@@ -3,8 +3,8 @@ import time
 import os
 import requests
 
-from Assignment_2.country import CountryDelay
-from Assignment_2.logger import logger, log_exception
+from SmsScheduler.country import CountryDelay
+from SmsScheduler.logger import logger, log_exception
 
 
 s = sched.scheduler(time.time, time.sleep)
