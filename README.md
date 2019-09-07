@@ -8,7 +8,7 @@ schedule as per geography.
 2. Schedule time.
 3. Message text body.
 
-This app used sms-magic api for sending sms.
+This app use sms-magic api for sending sms.
 
 ### Required Environment variables:
 
