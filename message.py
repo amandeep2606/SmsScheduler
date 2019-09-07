@@ -69,7 +69,7 @@ class MessageScheduler(Message):
         try:
             delay = self.country_delay.get_delay()
             s.enter(delay, 1, self.message_sender)
-        except (AttributeError, ValueError) as e:
+        except (AttributeError, ValueError, TypeError) as e:
             logger.error(e)
             logger.error(log_exception())
 

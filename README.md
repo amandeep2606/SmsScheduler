@@ -23,6 +23,7 @@ For apiKey you have to create an account with smsmagic and verify your email.
 
 1. git clone https://github.com/amandeep2606/SmsScheduler.git
 2. pip install -r requirements.txt
+3. put a .csv file containing mobile numbers and 
 3. python service.py
 
 
